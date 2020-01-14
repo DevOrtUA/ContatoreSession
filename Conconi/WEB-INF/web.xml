@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+        <servlet-name>Prova</servlet-name>
+        <servlet-class>conconi.Prova</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>Prova</servlet-name>
+        <url-pattern>/provaServlet/servlet</url-pattern>
+    </servlet-mapping>
+	
+</web-app>
